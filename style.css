@@ -1,7 +1,16 @@
+@font-face {
+  font-family: "NotCourierSans";
+  src: local("NotCourierSans.ttf"), url("ttf/NotCourierSans.ttf") format("truetype");
+  font-weight:  400;
+  font-style:   regular;
+  font-variant: normal;
+  font-stretch: normal;
+}   
+
 .header {
 	background: gray;
 	color: yellow;
-	font-family: Source Sans Pro;
+	font-family: NotCourierSans;
     font-weight: normal;
     font-style: normal;
 	font-size: 24px;
