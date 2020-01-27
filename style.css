@@ -1,46 +1,50 @@
 /* #121214 #3D3C42 #7195C0 #B3C4DF #787480 */
 
-body, h1, h2, h3, h4, h5, h6, p {
-	margin: 0px;
-	border: 0px;
-	padding: 0px;
+html, body {
+  height: 100%;
+  margin: 0;
+  color: #F8FBF9;
+  background-color: #343B35;
+
+  font-family: "Ubuntu";
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  color: #F8FBF9;
+}
+
+a {
+  color: #F9CE78;
+  text-decoration: none;
 }
 
 .header {
+  height: 48px;
+  margin: 0;
+
+  background: #121412;
+  color: #D4E6D7;
+  font-size: 20px;
+
 	font-family: "NotCourierSansRegular";
-    font-weight: normal;
-    font-style: normal;
-
-	margin: 0px;
-	border: 0px;
-	padding: 0px;
-
-	background: #20242b;
-	color: #B3C4DF;
-	font-size: 24px;
-	text-align: center;
+  font-weight: normal;
+  font-style: normal;
 }
 
-.footer {
-	font-family: "NotCourierSansRegular";
-    font-weight: normal;
-    font-style: normal;
-
-	margin: 0px;
-	border: 0px;
-	padding: 0px;
-
-	background: #20242b;
-	color: #B3C4DF;
-	font-size: 24px;
-	text-align: center;
-}
-
-.test {
-	color: #261b2b;
-	font-family: "NotCourierSansRegular";
-    font-weight: normal;
-    font-style: normal;
+.wrapper {
+  height: 100%;
 }
 
 .background {
@@ -49,7 +53,7 @@ body, h1, h2, h3, h4, h5, h6, p {
     font-style: normal;
 
 	width: 100%;
-	height: 350px;
+	height: 300px;
 	margin: 0px;
 	border: 0px;
 	padding: 0px;
@@ -59,70 +63,30 @@ body, h1, h2, h3, h4, h5, h6, p {
     background-attachment: fixed;
 }
 
-#trees {
-	color: #261b2b;
-
-	background-image: url(https://github.com/HunterHykes/hunterhykes.github.io/raw/master/res/trees.png);
-}
-
-#stars {
-	color: white;
-
-	background-image: url(https://github.com/HunterHykes/hunterhykes.github.io/raw/master/res/stars.png);
-}
-
-.sidebar {
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #787480;
-  position: fixed;
+button {
+  border: none;
+  background: none;
+  outline: none;
+  text-transform: uppercase;
   height: 100%;
-  overflow: auto;
+  font-weight: 700;
+  color: steelblue;
+  font-size: inherit;
+
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s; /* Safari */
+  -moz-transition: all 0.3s; /* Mozilla */
 }
 
-/* Sidebar links */
-.sidebar a {
-  display: block;
-  color: black;
-  padding: 16px;
-  text-decoration: none;
+.pannel {
+  margin: 5px;
+  padding: 10px;
+  display: inline-block;
+  background-color: #232824;
+  border: solid 10px #232824;
+  box-shadow: inset 0 0 0 2px #ABC5B0;
 }
 
-/* Active/current link */
-.sidebar a.active {
-  background-color: #787480;
-  color: white;
-}
-
-/* Links on mouse-over */
-.sidebar a:hover:not(.active) {
-  background-color: #3D3C42;
-  color: white;
-}
-
-/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-div.content {
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: 1000px;
-}
-
-/* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 700px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
-}
-
-/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-@media screen and (max-width: 400px) {
-  .sidebar a {
-    text-align: center;
-    float: none;
-  }
+.pannel h4 {
+  text-transform: uppercase;
 }
