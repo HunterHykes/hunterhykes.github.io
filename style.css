@@ -44,7 +44,8 @@ a:hover {
 }
 
 .header {
-  height: 48px;
+  height: 7%;
+  min-height: 25px;
   margin: 0;
 
   background: #212426;
@@ -56,9 +57,31 @@ a:hover {
   font-style: normal;
 }
 
-.wrapper {
+.pageButton {
+  width: 20%;
   height: 100%;
-  margin: 0 10%;
+  margin: auto 0;
+  display: table;
+  float: left;
+  text-align: center;
+  font-size: inherit;
+  border: none;
+  background: none;
+  outline: none;
+
+  text-transform: uppercase;
+
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s; /* Safari */
+  -moz-transition: all 0.3s; /* Mozilla */
+}
+
+.wrapper {
+  text-align: left;
+  width: 60%;
+  min-width: 320px;
+  height: 100%;
+  margin: 0 auto;
 }
 
 .sidebar {
@@ -77,6 +100,18 @@ a:hover {
   padding: 0;
   display: inline-block;
   float: left;
+}
+
+.left {
+  display: inline-block;
+  float: left;
+  width: 30%;
+}
+
+.right {
+  display: inline-block;
+  float: left;
+  width: 70%;
 }
 
 .background {
@@ -135,7 +170,12 @@ button {
 }
 
 .pannel h4 {
-  text-transform: uppercase;
+  text-transform: none;
+}
+
+.post {
+  margin-top: 5%;
+  height: 150px;
 }
 
 #weather {
@@ -163,4 +203,26 @@ span #datetime {
 .pdfLink:hover {
   color: #EFF0F1;
   text-decoration: none;
+}
+
+.txtFrame {
+  width: 50%;
+  border-left: 1px solid white;
+  display: inline-block;
+  float: left;
+  padding-left: 2%;
+  margin: 0 2%;
+  background-color: #394042; /* 232824 */
+}
+
+.imgFrame {
+  height: 96%;
+  padding: 1%;
+  margin: 0;
+  display: inline-block;
+  float: left;
+}
+
+#skelly {
+  background-color: black;
 }
