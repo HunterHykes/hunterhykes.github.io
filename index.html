@@ -8,14 +8,37 @@
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 <body>
-	<div class="header">
-		<div class="wrapper">
-			<div class="pageButton"><a href="index.html">Home</a></div>
-			<div class="pageButton"><a href="ua.html">UA</a></div>
+	<div class="linkList">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="ua.html">UA</a></li>
+		</ul>
+	</div>
+
+	<div class="left">
+		<img class="imgFrame" id="skelly" src="res/skelly-sprite.gif">
+		<div class="txtFrame">
+			<p>
+				This will eventually be used for some kind of "about me" section if I ever get serious about making this.
+			</p>
+			<p>
+				For now, appreciate Sir Sprite Skelly.
+			</p>
 		</div>
 	</div>
 
-	<div class="wrapper">
+	<div class="right">
+		<div class="content">
+			<div class="pannel" id="weather">
+				<p><span id="datetime"></span></p>
+
+				<!-- Weather Widget -->
+				<a class="weatherwidget-io" href="https://forecast7.com/en/41d08n81d52/akron/?unit=us" data-label_1="Akron, OH" data-label_2="Weather" data-font="Ubuntu" data-icons="Climacons Animated" data-mode="Current" data-theme="gray" >Akron, OH Weather</a>
+			</div>	
+		</div><!-- content -->
+	</div>
+
+	<!--div class="wrapper">
 		<div class="pannel post">
 			<img class="imgFrame" id="skelly" src="res/skelly-sprite.gif">
 
@@ -26,7 +49,11 @@
 					For now, appreciate Sir Sprite Skelly.</p>
 			</div>
 		</div>
-	</div>
+
+		<div class="pannel post">
+			<img class="imgFrame" src="img/cursed/dogs.jpg">
+		</div>
+	</div-->
 
 	<script type="text/javascript" src="script.js"></script>
 </body>
