@@ -1,55 +1,263 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Test</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/notcouriersans" type="text/css"/>
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-</head>
-<body>
-	<div class="linkList">
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="ua.html">UA</a></li>
-		</ul>
-	</div>
-
-	<div class="left">
-		<img class="imgFrame" id="skelly" src="res/skelly-sprite.gif">
-		<div class="txtFrame">
-			
-		</div>
-	</div>
-
-	<div class="right">
-		<div class="content">
-			<div class="pannel" id="weather">
-				<p><span id="datetime"></span></p>
-
-				<!-- Weather Widget -->
-				<a class="weatherwidget-io" href="https://forecast7.com/en/41d08n81d52/akron/?unit=us" data-label_1="Akron, OH" data-label_2="Weather" data-font="Ubuntu" data-icons="Climacons Animated" data-mode="Current" data-theme="gray" >Akron, OH Weather</a>
-			</div>	
-		</div><!-- content -->
-	</div>
-
-	<!--div class="wrapper">
-		<div class="pannel post">
-			<img class="imgFrame" id="skelly" src="res/skelly-sprite.gif">
-
-			<div class="txtFrame">
-				<p>
-					This will eventually be used for some kind of "about me" section if I ever get serious about making this.</p>
-				<p>
-					For now, appreciate Sir Sprite Skelly.</p>
-			</div>
-		</div>
-
-		<div class="pannel post">
-			<img class="imgFrame" src="img/cursed/dogs.jpg">
-		</div>
-	</div-->
-
-	<script type="text/javascript" src="script.js"></script>
-</body>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Resume - Hunter Hykes</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Hunter Hykes</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Hunter
+                        <span class="text-primary">Hykes</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        <i class="fas fa-map-marker-alt"></i> Akron, OH ·
+                        <a href="mailto:hh81@uakron.edu">hh81@uakron.edu</a>
+                    </div>
+                    <p class="lead mb-3">I am experienced in software development for desktop, console, and embedded applications. I take pride in producing clean, easy to understand, and easy to use solutions which provide value and efficiency to the end user.</p>
+                    <p  class="lead mb-5">During my time in college, I have developed a passion for developing embedded hardware and software solutions, and computer networking and security.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/hunterhykes/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/HunterHykes"><i class="fab fa-github"></i></a>
+                        <!--a class="social-icon" href="#"><i class="fab fa-twitter"></i></a-->
+                        <!--a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a-->
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Associate Engineer Intern</h3>
+                            <div class="subheading mb-3">TinyCircuits</div>
+                            <p>Made a variety of Arduino and Raspberry Pi projects involving sensors, displays, motors, communication, and IoT devices. Gained experience troubleshooting custom embedded hardware devices and developing code from device documentation.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2018 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Cybersecurity Co-op</h3>
+                            <div class="subheading mb-3">ABB Inc.</div>
+                            <p>Created user tools to automate the configuration of network switches and time synchronization registries for DCS infrastructure.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2019 - December 2019</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Systems Engineering Co-op</h3>
+                            <div class="subheading mb-3">ABB Inc.</div>
+                            <p>Developed an understanding of DCS heirarchies at the hardware and network levels. Configured HMI symbols to interface with existing tag databases to upgrade a legacy control system.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2019 - April 2019</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">General Laborer</h3>
+                            <div class="subheading mb-3">All-Do-It Technical Services LLC</div>
+                            <p>Worked a wide variety of jobs including forklift driving, rigging equipment for transport, aluminum extrusion press maintenance, machine repair, hub rebuilds, and running conduit and wiring.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">April 2016 - August 2016</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">The University of Akron</h3>
+                            <div class="subheading mb-3">Bachelor of Science</div>
+                            <div>Computer Engineering - Specialization in Numerical Computation</div>
+                            <div>Mathematics Minor</div>
+                            <p>GPA: 3.372</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2016 - May 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Austintown Fitch High School</h3>
+                            <div class="subheading mb-3">High School Diploma</div>
+                            <p>GPA: 3.80</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2012 - May 2016</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <div class="skill-icons">
+                        <div class="skill-icon">C</div>
+                        <div class="skill-icon">C++</div>
+                        <div class="skill-icon">Arduino</div>
+                        <div class="skill-icon">Python</div>
+                        <div class="skill-icon">VB.NET</div>
+                        <div class="skill-icon">Java</div>
+                        <div class="skill-icon">MATLAB</div>
+                        <div class="skill-icon">Javascript</div>
+                        <div class="skill-icon">HTML</div>
+                        <div class="skill-icon">CSS</div>
+                        <div class="skill-icon">Markdown</div>
+                        <div class="skill-icon">LaTeX</div>
+                    </div>
+                    <div class="subheading mb-3">Technical</div>
+                    <div class="skill-icons">
+                        <div class="skill-icon">Embedded Systems</div>
+                        <div class="skill-icon">Computer Networks</div>
+                        <div class="skill-icon">Internet of Things</div>
+                        <div class="skill-icon">Robotics</div>
+                        <div class="skill-icon">Operating Systems</div>
+                        <div class="skill-icon">Virtual Machines</div>
+                        <div class="skill-icon">Distributed Control Systems</div>
+                        <div class="skill-icon">Human Machine Interfaces</div>
+                    </div>
+                    <!--
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                    </ul>
+                    -->
+                    <!--
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Mobile-First, Responsive Design
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Browser Testing & Debugging
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Functional Teams
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development & Scrum
+                        </li>
+                    </ul>
+                    </div>
+                    -->
+            </section>
+            <hr class="m-0" />
+            <!-- Projects-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">H.A.L.O. - Hard Hat Ambient Liability Observer</h3>
+                            <div class="subheading mb-3">Senior Design Project</div>
+                            <div>This product is a hard hat attachment which utilizes time-of-flight (ToF) sensors to detect hazards near the wearer's head. Dependent on the distance between the user and the hazard, some RGB LEDs placed near the brim of the hard hat will turn on and change hue from yellow to red as objects approach. In the event that the user suffers an impact to their head, an on-board accelerometer will detect the impact severity. If this impact is determined to pose a concussion threat to the user, the accelerometer data is logged to a .csv file on a micro-SD card.</div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">NASA Robotic Mining Competition</h3>
+                            <div class="subheading mb-3">University Design Team</div>
+                            <div>This team's focus is to design and produce a robot for a simulated mining mission on Martian or lunar soil.</div>
+                            <div>In my role as the electrical subteam lead, I initiated an overhaul of our custom electrical system to enhance modularity, maintainability, and minimize the physical footprint while preserving all existing features of the system.</div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">FIRST Robotics Competition</h3>
+                            <div class="subheading mb-3">Falco Tech - Team 3193</div>
+                            <div>During all four years of high school, I was involved with our FRC team. Each year, a new game is released and teams all across the world are given six weeks to design and build a robot to specification to compete in that year's game.</div>
+                            <div>While part of the team, we competed in 
+                                <a href="https://en.wikipedia.org/wiki/Ultimate_Ascent">Ultimate Ascent</a> (2013), 
+                                <a href="https://en.wikipedia.org/wiki/Aerial_Assist">Aerial Assist</a> (2014), 
+                                <a href="https://en.wikipedia.org/wiki/Recycle_Rush">Recycle Rush</a> (2015), and
+                                <a href="https://en.wikipedia.org/wiki/FIRST_Stronghold">FIRST Stronghold</a> (2016).
+                                I held a role on the drive team from 2014-2016 in which I would control the mechanisms of the robot which interacted with game pieces.
+                            </div>
+                            <div>My involvement on this team is ultiately what made me decide to pursue a major in Computer Engineering.</div>
+                        </div>
+                    </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>My interests related to computers include DIY arduino projects, maintaining a small home lab network, and repairing/modifying old video game consoles.</p>
+                    <p class="mb-3">Aside from working with computers, I like to spend some time enjoying the outdoors. Due to pursuits in scouting, I've developed interests in hiking, plant and wildlife identificaiton, and astronomy.</p>
+                    <p class="mb-3">I also enjoy amateur woodworking as a hobby and maintain a record collection. When time allows, I dabble in playing the guitar, although my primary instrument is the trumpet.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Honors & Awards</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Eagle Scout - Boy Scout Troop 25, Canfield, OH
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2
+                            <sup>nd</sup>
+                            Place - NASA Robotic Mining Competition 2019
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
